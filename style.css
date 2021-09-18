@@ -1,0 +1,23 @@
+#main-div {
+    margin: 50px auto;
+    width: 720px;
+    height: 720px;
+    background: red;
+    position: relative;
+}
+#horizontal-div{
+    width: 400px;
+    height: 120px;
+    background: white;
+    position: absolute;
+    top: 300px;
+    left: 160px;
+}
+#vertical-div{
+    width: 120px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 160px;
+    left: 300px;
+}
