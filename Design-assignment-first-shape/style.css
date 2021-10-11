@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 main {
     display: flex;
     justify-content: center;
@@ -13,14 +14,14 @@ main {
 
 section {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .div-top-container{
     display: flex;
     margin: auto;
 }
+
 .div-bottom-container {
     display: flex;
 }
