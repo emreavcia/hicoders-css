@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #62306D;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div-top-container{
+    display: flex;
+    margin: auto;
+}
+.div-bottom-container {
+    display: flex;
+}
+.shape{
+    background-color: #F7EC7D;
+    width: 45vh;
+    height: 45vh;
+}
+ .shape-top {
+    border-top-left-radius: 22.5vh ;
+    border-top-right-radius: 22.5vh;
+    align-self: center;
+ }
+
+ .shape-bottom {
+    border-bottom-left-radius: 22.5vh;
+    border-bottom-right-radius: 22.5vh;    
+ }
+
+ .shape-bottom-left {
+    margin-right: 45vh;
+ }
+
+
+
+

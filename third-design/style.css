@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.half-circle-container {
+    position: relative;
+}
+main {
+    background-color: #191210 ;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.half-circle-container-top{
+    position: absolute;
+    top: 15em;
+    left: 28em;
+}
+.half-circle-container-bottom {
+    position: absolute;
+    top: 15em;
+    left: 67em;
+}
+
+.half-circle {
+    background-color: #ECA03D;
+    width: 15em;
+    height: 15em;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+    
+}
+.black-box {
+    background-color: #191210;
+    width: 15em;
+    height: 7.5em;
+    position: absolute;
+    z-index: 1;
+}
+.black-box-2 {
+    top: 7.5em;
+}
+
+.small-circle {
+    width: 10em;
+    height: 10em;
+    background-color: #191210;
+    border-radius: 100%;
+}
+
+.big-circle {
+    width: 30em;
+    height: 30em;
+    background-color: #ECA03D;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10em;
+    left: 40em;
+    z-index: 2;
+}
+
+.big-black-circle {
+    width: 22.5em;
+    height: 22.5em;
+    background-color: #191210;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brown-circle {
+    width: 12.5em;
+    height: 12.5em;
+    background-color: #84271C;
+    border-radius: 100%;
+}
