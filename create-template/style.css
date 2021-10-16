@@ -8,9 +8,40 @@
 
 /* Colors */
 :root {
-    --border-color: rgb(104, 153, 228);
+    --bg-color: rgb(104, 153, 228);
     --primary-color: white;
 }
 
-/* Components*/
+/* Display classes and properties*/
+
+.d-flex {
+    display:flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* MAIN */
+
+main{
+    background-color: var(--bg-color);
+    width: 100vh;
+    height: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+/*****************************
+ Components
+******************************/
+
+/* top-left components */
+
+.top-section-left-top-line {
+    width:80%;
+    height: 10%;
+    color:var(--primary-color)
+}
+
 
