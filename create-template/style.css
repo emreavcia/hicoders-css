@@ -1,0 +1,16 @@
+/* General Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --border-color: rgb(104, 153, 228);
+    --primary-color: white;
+}
+
+/* Components*/
+
