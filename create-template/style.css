@@ -22,14 +22,24 @@ main {
     align-items: center;
 }
 
-/* FIRST ROW */
-.top-main-container {
+.main-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 1em;
+    flex-direction:column ;
     width: 40em;
     height: 30em;
     background: var(--bg-color);
     padding: 1em;
+}
+/* FIRST ROW */
+
+.top-main-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5em;
+    height: 5em;
+    position: relative;
 }
 
 /* === top left section*/
@@ -54,7 +64,7 @@ main {
     background-color: var(--bg-color);
 }
 .top-left-bottom-line {
-    width: 40%;
+    width: 25%;
     height: 40%;
     background-color: var(--bg-color);
     justify-self: flex-end;
@@ -98,6 +108,9 @@ main {
     background-color: var(--bg-color);
     width: 5em;
     height: 7.5em;
+    position: absolute;
+    top: 0;
+    right: 0;
 
 }
 .top-right-line {
@@ -108,4 +121,50 @@ main {
 /* === top right section*/
 /* FIRST ROW */
 
+/* SECOND ROW */
+.middle-main-section {
+    display: flex;
+    justify-content: space-between;
+    width:40em;
+    height: 20em;
+}
+
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+    width: 5.5em;
+    height: 10em;
+    border-radius: 5.8%;
+}
+
+.phone-speaker {
+    width: 2.75em;
+    height: 0.1em;
+    background-color: var(--bg-color);
+    margin-top: 0.5em;
+}
+.phone-screen {
+    width: 5em;
+    height: 7.5em;
+    background-color: var(--bg-color);
+}
+
+.phone-circle-main {
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 100%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-circle-inner {
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+}
 /* SECOND ROW */
