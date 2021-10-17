@@ -1,47 +1,115 @@
-/* General Settings */
-
+/*=========GENERAL SETTINGS========*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*=========GENERAL SETTINGS========*/
 
-/* Colors */
+/* ============COLORS============= */
 :root {
-    --bg-color: rgb(104, 153, 228);
+    --bg-color: rgb(121, 169, 241);
     --primary-color: white;
 }
+/* ============COLORS============= */
 
-/* Display classes and properties*/
 
-.d-flex {
-    display:flex;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-/* MAIN */
-
-main{
+main {
     background-color: var(--bg-color);
-    width: 100vh;
-    height: 100vw;
+    width: 200vh;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*****************************
- Components
-******************************/
+/* FIRST ROW */
 
-/* top-left components */
 
-.top-section-left-top-line {
-    width:80%;
-    height: 10%;
-    color:var(--primary-color)
+.top-main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 40em;
+    height: 30em;
+    background: var(--bg-color);
+    padding: 1em;
 }
 
+/* === top left section*/
+.top-left-container {
+    display: flex;
+    flex-direction: column;
+    background-color:var(--primary-color);
+    width: 15em;
+    height: 5em;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8em 0.5em;
+}
+.top-left-top-line {
+    width: 90%;
+    height: 20%;
+    background-color: var(--bg-color);
+}
+.top-left-middle-line {
+    width: 90%;
+    height: 12.5%;
+    background-color: var(--bg-color);
+}
 
+.top-left-bottom-line {
+    width: 40%;
+    height: 40%;
+    background-color: var(--bg-color);
+    justify-self: flex-end;
+}
+/* === top left section*/
+
+/* === top middle section*/
+.top-middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--primary-color);
+    width: 15em;
+    height: 5em;
+}
+
+.top-middle-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+    background-color: var(--bg-color);
+}
+
+.top-middle-triangle{
+    width: 1em;
+    height: 1em;
+    background-color: var(--primary-color);
+    -webkit-clip-path: polygon(29% 1%, 30% 100%, 100% 47%);
+    clip-path: polygon(29% 1%, 30% 100%, 100% 47%);
+    --primary-color: white;
+}
+/* === top middle section*/
+
+/* === top right section*/
+.top-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    width: 5em;
+    height: 7.5em;
+
+}
+.top-right-lines {
+    width: 100%;
+    height: 8.5%;
+    background-color: var(--primary-color);
+}
+/* === top right section*/
+/* FIRST ROW */
