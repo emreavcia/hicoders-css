@@ -316,6 +316,7 @@ main {
     height: 1.5em;
     background-color: var(--primary-color);
     align-self: flex-start;
+    margin-right: 0.5em;
 }   
 
 .short-bar {
